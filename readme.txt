@@ -3,8 +3,8 @@ Contributors: donmik, dabesa, briannaorg
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=donmik%40gmail%2ecom&lc=GB&item_name=donmik%20%2d%20Plugin%20Buddypress%20Xprofile%20Custom%20Fields%20Type&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest
 Tags: buddypress, xprofile, fields
 Requires at least: 3.0
-Tested up to: 4.4
-Stable tag: 2.4.0
+Tested up to: 4.4.2
+Stable tag: 2.4.1a
 License: GLPv2 or later
 
 Buddypress 2.0 required! This plugin add custom field types to Buddypress Xprofile extension. Field types are: Birthdate, Email, Url, ...
@@ -47,6 +47,9 @@ Works with [BP Profile Search](https://wordpress.org/plugins/bp-profile-search/ 
 <http://donmik.com/en/buddypress-xprofile-custom-fields-type/#faq>
 
 == Changelog ==
+
+= 2.4.1 =
+* fixed fatal error caused by including non existing file. derp!
 
 = 2.4.0 =
 * NEW! Type of field: Range input (slider).
